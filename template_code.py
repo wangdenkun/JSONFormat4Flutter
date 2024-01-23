@@ -22,7 +22,7 @@ ${construction}
     return '{${toString}}';
   }
   
-  String toJson() => this.toString();
+  String toJson() => toString();
 }
 
 """
